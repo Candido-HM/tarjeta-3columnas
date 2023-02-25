@@ -195,17 +195,35 @@ footer {
 }
 @media (max-width: 730px) {
   main {
-    border: 2px solid red;
     width: 100%;
     height: auto;
   }
   main .card {
     width: 85%;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
   main .card .article-1 {
     width: auto;
+    border-radius: 15px 15px 0px 0px;
+  }
+  main .card .article-1 p {
+    height: 70px;
+  }
+  main .card .article-2 {
+    width: auto;
+  }
+  main .card .article-2 p {
+    height: 70px;
+  }
+  main .card .article-3 {
+    width: auto;
+    border-radius: 0px 0px 15px 15px;
+  }
+  main .card .article-3 p {
+    height: 70px;
   }
 }
