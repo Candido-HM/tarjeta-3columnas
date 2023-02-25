@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "LexendDeca";
+  src: url('/fonts/LexendDeca/LexendDeca-Regular.ttf');
+}
+@font-face {
+  font-family: "BigShoulders";
+  src: url('/fonts/BigShoulders/BigShouldersDisplay-Bold.ttf');
+  font-weight: 500;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F2F2F2;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .card {
+  width: 800px;
+  height: 430px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+main .card .article-1 {
+  width: 33.3%;
+  height: auto;
+  padding: 38px;
+  background-color: #E28525;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid #C4863B;
+  box-shadow: 0px 0px 3px 2px #D9892F inset, 0px 0px 3px 1px #EBCA97;
+}
+main .card .article-1 .icono {
+  width: 100%;
+  height: 70px;
+  background: no-repeat 0% 0% / auto url('/images/icon-sedans.svg');
+}
+main .card .article-1 h1 {
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: BigShoulders;
+  font-size: 30px;
+  color: #E9F7F8;
+  margin-top: auto;
+  margin-bottom: auto;
+  letter-spacing: 1px;
+}
+main .card .article-1 p {
+  width: 100%;
+  height: 150px;
+  font-family: LexendDeca;
+  font-size: 15px;
+  margin-top: auto;
+  color: #FACB86;
+}
+main .card .article-1 .btn {
+  width: 70%;
+  height: 50px;
+  border-radius: 45px;
+  color: #CBA36F;
+  font-size: 15px;
+  font-family: LexendDeca;
+  text-align: center;
+  transition: all 500ms;
+  border: 1px solid #BF8A47;
+}
+main .card .article-1 .btn:hover {
+  color: #FADFAF;
+  border: 2px solid #FFF0B7;
+  background-color: #E28525;
+  cursor: pointer;
+}
+main .card .article-2 {
+  width: 33.3%;
+  height: auto;
+  padding: 40px;
+  background-color: #016972;
+  border: 1px solid #0B585A;
+  box-shadow: 0px 0px 3px 1px #066C70 inset;
+}
+main .card .article-2 .icono {
+  width: 100%;
+  height: 70px;
+  background: no-repeat 0% 0% / auto url('/images/icon-suvs.svg');
+}
+main .card .article-2 h1 {
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: BigShoulders;
+  font-size: 30px;
+  color: #E9F7F8;
+  margin-top: auto;
+  margin-bottom: auto;
+  letter-spacing: 1px;
+}
+main .card .article-2 p {
+  width: 100%;
+  height: 150px;
+  font-family: LexendDeca;
+  font-size: 15px;
+  margin-top: auto;
+  color: #86D7DB;
+}
+main .card .article-2 .btn {
+  width: 70%;
+  height: 50px;
+  border-radius: 45px;
+  color: #4E797B;
+  font-size: 15px;
+  font-family: LexendDeca;
+  text-align: center;
+  transition: all 500ms;
+  border: 1px solid #12595B;
+}
+main .card .article-2 .btn:hover {
+  color: #D5FFFF;
+  border: 2px solid #D2FFFF;
+  background-color: #016972;
+  cursor: pointer;
+}
+main .card .article-3 {
+  width: 33.3%;
+  height: auto;
+  padding: 40px;
+  background-color: #00403F;
+  border-radius: 0px 15px 15px 0px;
+  border: 1px solid #002F2B;
+  box-shadow: 0px 0px 4px 2px #08403F inset;
+}
+main .card .article-3 .icono {
+  width: 100%;
+  height: 70px;
+  background: no-repeat 0% 0% / auto url('/images/icon-luxury.svg');
+}
+main .card .article-3 h1 {
+  width: 100%;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: BigShoulders;
+  font-size: 30px;
+  color: #E9F7F8;
+  margin-top: auto;
+  margin-bottom: auto;
+  letter-spacing: 1px;
+}
+main .card .article-3 p {
+  width: 100%;
+  height: 150px;
+  font-family: LexendDeca;
+  font-size: 15px;
+  margin-top: auto;
+  color: #9CCCCB;
+}
+main .card .article-3 .btn {
+  width: 70%;
+  height: 50px;
+  border-radius: 45px;
+  color: #4B5E5D;
+  font-size: 15px;
+  font-family: LexendDeca;
+  text-align: center;
+  transition: all 500ms;
+  border: 1px solid #083231;
+}
+main .card .article-3 .btn:hover {
+  color: #B8E0DF;
+  border: 2px solid #E3FFFF;
+  background-color: #00403F;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-color: #cfc7c7;
+  font-size: 20px;
+}
+/************************* Responsivo *****************************/
+@media (max-width: 812px) {
+  main .card {
+    width: 780px;
+    height: 450px;
+  }
+}
+@media (max-width: 790px) {
+  main .card {
+    width: 720px;
+    height: 450px;
+  }
+}
+@media (max-width: 730px) {
+  /*body {
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc();
+    }*/
+  main {
+    align-items: normal;
+    padding: 40px;
+  }
+  main .card {
+    width: 90%;
+    flex-direction: column;
+  }
+  main .card .article-1 {
+    width: 90%;
+    height: 350px;
+    padding: 38px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  main .card .article-1 p {
+    height: 60px;
+  }
+  /*footer {
+        display: block;
+        text-align: center;
+        background-color: rgb(207, 199, 199);
+        font-size: 18px;
+    }*/
+}
